@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <!-- charset must remain utf-8 to be handled properly by Processing -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>PONG_PAST__FUTURE : Built with Processing</title>
+
+    <style type="text/css">
+            /* <![CDATA[ */
+
+        body {
+            margin: 60px 0px 0px 55px;
+            font-family: verdana, geneva, arial, helvetica, sans-serif;
+            font-size: 11px;
+            background-color: #ddddcc;
+            text-decoration: none;
+            font-weight: normal;
+            line-height: normal;
+        }
+
+        a          { color: #3399cc; }
+        a:link     { color: #3399cc; text-decoration: underline; }
+        a:visited  { color: #3399cc; text-decoration: underline; }
+        a:active   { color: #3399cc; text-decoration: underline; }
+        a:hover    { color: #3399cc; text-decoration: underline; }
+
+            /* ]]> */
+    </style>
+</head>
+
+<body>
+<div id="content">
+    <div id="PONG_PAST__FUTURE_container">
+
+        <!-- This version plays nicer with older browsers,
+             but requires JavaScript to be enabled.
+             http://java.sun.com/javase/6/docs/technotes/guides/jweb/deployment_advice.html
+             http://download.oracle.com/javase/tutorial/deployment/deploymentInDepth/ -->
+        <script type="text/javascript"
+                src="http://www.java.com/js/deployJava.js"></script>
+
+        <script type="text/javascript">
+            /* <![CDATA[ */
+
+            var attributes = {
+                code: 'PONG_PAST__FUTURE.class',
+                archive: 'PONG_PAST__FUTURE.jar',
+                width: 1000,
+            height: 600
+            };
+            var parameters = {
+                image: 'loading.gif',
+                centerimage: 'true'
+            };
+            var version = '1.5';
+            deployJava.runApplet(attributes, parameters, version);
+
+            /* ]]> */
+        </script>
+
+        <noscript> <div>
+            <!--[if !IE]> -->
+            <object classid="java:PONG_PAST__FUTURE.class"
+                    type="application/x-java-applet"
+                    archive="PONG_PAST__FUTURE.jar"
+                    width="1000" height="600"
+                    standby="Loading Processing software..." >
+
+                <param name="archive" value="PONG_PAST__FUTURE.jar" />
+
+                <param name="mayscript" value="true" />
+                <param name="scriptable" value="true" />
+
+                <param name="image" value="loading.gif" />
+                <param name="boxmessage" value="Loading Processing software..." />
+                <param name="boxbgcolor" value="#FFFFFF" />
+                <!--<![endif]-->
+
+                <!-- For more instructions on deployment,
+                 or to update the CAB file listed here, see:
+                 http://java.sun.com/javase/6/webnotes/family-clsid.html
+                 http://java.sun.com/javase/6/webnotes/install/jre/autodownload.html -->
+                <object classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93"
+                        codebase="http://java.sun.com/update/1.6.0/jinstall-6u20-windows-i586.cab"
+                        width="1000" height="600"
+                        standby="Loading Processing software..."  >
+
+                    <param name="code" value="PONG_PAST__FUTURE" />
+                    <param name="archive" value="PONG_PAST__FUTURE.jar" />
+
+                    <param name="mayscript" value="true" />
+                    <param name="scriptable" value="true" />
+
+                    <param name="image" value="loading.gif" />
+                    <param name="boxmessage" value="Loading Processing software..." />
+                    <param name="boxbgcolor" value="#FFFFFF" />
+
+                    <p>
+                        <strong>
+                            This browser does not have a Java Plug-in.
+                            <br />
+                            <a href="http://www.java.com/getjava" title="Download Java Plug-in">
+                                Get the latest Java Plug-in here.
+                            </a>
+                        </strong>
+                    </p>
+
+                </object>
+
+                <!--[if !IE]> -->
+            </object>
+            <!--<![endif]-->
+
+        </div> </noscript>
+
+    </div>
+
+    <p>
+        
+  GLITCH/RETRO/HAUNTOLOGY STYLED & THEMED PONG (MAN VERSUS MACHINE)
+  HAUNTOLOGY: NOSTALGIA FOR THE FUTURE OF OUR CHILDHOOD PAST
+
+- Greyscale TV bars
+_ Use AudioInput in to distort these bars before/after Game Starts. (distortion dependant on sound levels)
+- Simulated signal noise/interference at certain points/scores, More franctic after either Man or Machine score is greater than 4
+- Classic atari-style fonts
+- Pong styled ADM logo
+- Cursor from Arrow to Hand over Click to Start Button, from Arrow/Hand to Crosshair over Info Target to display credits.
+- One player = Machine v Man / NO two Player Mode as game is themed as MAN VERSUS MACHINE
+- Mouse controlled Man, AI Machine
+- Match Point warnings when either Man and/or Machine reaches 9 on scoreboard
+- Spacebar to reset game when game over (NOTE: this does work but might still be "glitchy")
+- 3 peices of complimentary music: Machine Theme, Game Theme, Macine Defeated Theme (see below)
+- "Cindy Electronium" (1959), "The Bass-Line Generator" (1966-67) - Raymond Scott
+- "No Way to Prepare" (2010) - To Rococo Rot
+
+- NOTE 1: PLEASE PLAY WITH SOUND UP and defeat and be defeated by the Machine.(see above)
+
+- NOTE 2: my focus has been on acheiving this particular STYLE/THEME rather than on adding lots of functionality
+
+- PS: I LOVED this assignment, and plan on further adding to it over coming weeks/and months 
+- (and also learning how to make the code more elegant and effecient!)
+
+
+
+    </p>
+
+    <p>
+        Source code: <a href="PONG_PAST__FUTURE.pde">PONG_PAST__FUTURE</a> 
+    </p>
+
+    <p>
+        Built with <a href="http://processing.org" title="Processing.org">Processing</a>
+    </p>
+</div>
+</body>
+</html>
